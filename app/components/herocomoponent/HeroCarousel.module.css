@@ -71,3 +71,19 @@
 .slick-dots li.slick-active button:before {
   color: #f39c12;
 }
+
+
+@media (max-width: 480px) { 
+
+   .hero-slide h1 {
+    font-size: 2rem; 
+  }
+
+  .hero-slide p {
+    font-size: 1.2rem; 
+  }
+
+  .cta-btn {
+    padding: 8px 16px; 
+  }
+}

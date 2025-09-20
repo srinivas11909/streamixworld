@@ -10,10 +10,10 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <div className="text-xl font-bold tracking-wide">
-          <Link href={"/"}>STREAMIXWORLD
+          <Link href="/" onClick={() => setMenuOpen(false)}>
+            STREAMIXWORLD
           </Link>
-
-          </div>
+        </div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-6 text-sm">
@@ -53,11 +53,11 @@ export default function Navbar() {
       {/* Mobile Nav */}
       {menuOpen && (
         <nav className="md:hidden flex flex-col bg-[#1a1c29] px-6 py-4 gap-3">
-          <Link href="/about">About Us</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/influencers">For Influencers</Link>
-          <Link href="/brands">For Brands</Link>
-          <Link href="/contact">Contact Us</Link>
+          <Link href="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
+          <Link href="/services" onClick={() => setMenuOpen(false)}>Services</Link>
+          <Link href="/influencers" onClick={() => setMenuOpen(false)}>For Influencers</Link>
+          <Link href="/brands" onClick={() => setMenuOpen(false)}>For Brands</Link>
+          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact Us</Link>
         </nav>
       )}
     </header>

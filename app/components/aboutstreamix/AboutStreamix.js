@@ -48,7 +48,7 @@ export default function AboutStreamix() {
                 <div className="text-3xl mb-3">{service.icon}</div>
               )}
 
-              <h3 className="font-semibold text-lg mb-2">{service.title}</h3>
+              <h3 className="font-semibold text-slate-800 text-lg mb-2">{service.title}</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 {service.desc}
               </p>
