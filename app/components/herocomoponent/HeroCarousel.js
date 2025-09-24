@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./HeroCarousel.module.css"
 
-export default function HeroCarousel() {
+export default function HeroCarousel({data}) {
   const [slides, setSlides] = useState([]);
 
   // Fetching the slide data (you can replace this with your API or static data)

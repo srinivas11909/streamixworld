@@ -1,9 +1,9 @@
-"use client";
-import Image from "next/image";
-// import Navbar from "./components/navbar/NavBar";
 import About from "./components/About";
 import Services from "./components/Services";
 import HeroCarousel from "./components/herocomoponent/HeroCarousel";
+import { BusinessSection } from "./components/landingpage/BusinessSection";
+import HowWeWork from "./components/landingpage/HomeWork";
+import FinalCTA from "./components/landingpage/FinalCta";
 
 export default function Home() {
   return (
@@ -12,6 +12,9 @@ export default function Home() {
         <HeroCarousel />
         <About />
         <Services />
+        <BusinessSection />
+        <HowWeWork />
+        <FinalCTA />
       </main>
     </div>
   );

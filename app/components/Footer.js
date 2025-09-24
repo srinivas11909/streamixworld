@@ -9,11 +9,13 @@ export default function Footer() {
 
         {/* Nav Links (same order as header) */}
         <nav className="flex flex-col md:flex-row gap-4 md:gap-6 text-sm text-gray-300">
-          <Link href="/about" className="hover:text-white">About Us</Link>
-          <Link href="/services" className="hover:text-white">Services</Link>
+          <Link href="/" className="hover:text-white">Home</Link>
+          <Link href="/about-us" className="hover:text-white">About Us</Link>
+          <Link href="/business" className="hover:text-white">For Business</Link>
           <Link href="/influencers" className="hover:text-white">For Influencers</Link>
           <Link href="/brands" className="hover:text-white">For Brands</Link>
-          <Link href="/contact" className="hover:text-white">Contact Us</Link>
+          <Link href="/talents" className="hover:text-white">For Talents</Link>
+          <Link href="/contact-us" className="hover:text-white">Contact Us</Link>
         </nav>
       </div>
 
