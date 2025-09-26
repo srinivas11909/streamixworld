@@ -41,10 +41,30 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <section className="bg-gray-50 text-gray-800">
+      <div className="relative bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 text-white  shadow-lg overflow-hidden">
+  <div className="absolute inset-0 bg-black/30"></div>
+  <div className="relative px-8 py-20 text-center max-w-4xl mx-auto">
+    <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
+      Who We Are
+    </h1>
+    <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
+      StreamixWorld is a digital marketing and video production company
+      committed to helping businesses, creators, and producers achieve
+      measurable growth through creative storytelling, influencer
+      collaborations, and professional production services.
+    </p>
+    <p className="text-lg md:text-xl text-gray-200 mt-6 leading-relaxed">
+      With a strong presence in the Telugu entertainment industry, we
+      specialize in connecting brands with the right influencers, executing
+      impactful promotional campaigns, and managing end-to-end line
+      production for short films, songs, and branded content.
+    </p>
+  </div>
+</div>
       <div className="max-w-7xl mx-auto px-6 py-16 space-y-20">
         
         {/* Who We Are */}
-        <div className="text-center md:text-left">
+        {/* <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-extrabold text-blue-700 mb-6">
             Who We Are
           </h1>
@@ -58,7 +78,7 @@ export default function AboutPage() {
             connecting brands with the right influencers, executing impactful promotional campaigns, 
             and managing end-to-end line production for short films, songs, and branded content.
           </p>
-        </div>
+        </div> */}
 
         {/* Mission & Vision */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

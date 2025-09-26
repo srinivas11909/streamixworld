@@ -39,10 +39,10 @@ export default function Navbar() {
               </Link>
             </div>
           </div> */}
-          <Link href="/business" className={isActive('/business')}>For Business</Link>
-          <Link href="/talent" className={isActive('/talent')}>For Talent</Link>
+          <Link href="/for-business" className={isActive('/for-business')}>For Business</Link>
+          <Link href="/for-talent" className={isActive('/for-talent')}>For Talent</Link>
           <Link href="/influencers" className={isActive('/influencers')}>For Influencers</Link>
-          <Link href="/brands" className={isActive('/brands')}>For Brands</Link>
+          <Link href="/for-brands" className={isActive('/for-brands')}>For Brands</Link>
           <Link href="/contact-us" className={isActive('/contact-us')}>Contact Us</Link>
         </nav>
 
@@ -63,10 +63,10 @@ export default function Navbar() {
           <Link href="/" onClick={() => setMenuOpen(false)} className={isActive('/')}>Home</Link>
           <Link href="/about-us" onClick={() => setMenuOpen(false)} className={isActive('/about-us')}>About Us</Link>
           
-          <Link href="/business" onClick={() => setMenuOpen(false)} className={isActive('/business')}>For Business</Link>
-          <Link href="/talent" onClick={() => setMenuOpen(false)} className={isActive('/talent')}>For Talent</Link>
+          <Link href="/for-business" onClick={() => setMenuOpen(false)} className={isActive('/for-business')}>For Business</Link>
+          <Link href="/for-talent" onClick={() => setMenuOpen(false)} className={isActive('/for-talent')}>For Talent</Link>
           <Link href="/influencers" onClick={() => setMenuOpen(false)} className={isActive('/influencers')}>For Influencers</Link>
-          <Link href="/brands" onClick={() => setMenuOpen(false)} className={isActive('/brands')}>For Brands</Link>
+          <Link href="/for-brands" onClick={() => setMenuOpen(false)} className={isActive('/for-brands')}>For Brands</Link>
           <Link href="/contact-us" onClick={() => setMenuOpen(false)} className={isActive('/contact-us')}>Contact Us</Link>
         </nav>
       )}
