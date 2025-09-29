@@ -4,6 +4,7 @@ import HeroCarousel from "./components/herocomoponent/HeroCarousel";
 import { BusinessSection } from "./components/landingpage/BusinessSection";
 import HowWeWork from "./components/landingpage/HomeWork";
 import FinalCTA from "./components/landingpage/FinalCta";
+import TabsSection from "./components/TabsSection";
 
 export const metadata = {
   title: "StreamixWorld | Digital Marketing & Video Production",
@@ -42,9 +43,10 @@ export default function Home() {
     <div className="font-sans min-h-screen">
       <main className="flex flex-col items-center sm:items-start">
         <HeroCarousel />
+        <TabsSection/>
         <About />
         <Services />
-        <BusinessSection />
+        {/* <BusinessSection /> */}
         <HowWeWork />
         <FinalCTA />
       </main>
